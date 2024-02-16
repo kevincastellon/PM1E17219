@@ -20,7 +20,6 @@ public class Transacciones {
     public static final String CreateTableContactos = "CREATE TABLE contactos "
             + "(id INTEGER PRIMARY KEY AUTOINCREMENT, nombre TEXT, telefono INTEGER, nota TEXT, pais TEXT, foto BLOB)";
 
-
     //DML
     public static final String DropTableContactos = "DROP TABLE IF EXISTS contactos";
 
@@ -33,4 +32,8 @@ public class Transacciones {
             Transacciones.pais + " = ?, " +
             Transacciones.foto + " = ? " +
             "WHERE " + Transacciones.id + " = ?";
+
+
+
+
 }
