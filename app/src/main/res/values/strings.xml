@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PM1E17219</string>
+    <string name="pais">Pais</string>
+    <string name="nombre">Ingrese el nombre</string>
 </resources>
